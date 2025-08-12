@@ -1,0 +1,9 @@
+flask
+librosa
+numpy
+matplotlib
+tensorflow
+scikit-learn
+joblib
+opencv-python
+kaggle
