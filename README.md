@@ -3,6 +3,8 @@
 This repo shows how to extract MFCC spectrogram images from audio and use VGG16 as a feature extractor, followed by a lightweight SVM classifier for final prediction. A Flask app is included for inference.
 
 ## Quickstart
+--> first you should create virtual environment and activate
+    create:- `python -m venv venv` activate:-`venv\Scripts\activate`
 1. Install requirements: `pip install -r requirements.txt`
 2. Download dataset: `python download_dataset.py` (configure dataset slug or manually place data in `data/genuine` and `data/deepfake`)
 3. Train: `python train.py`
