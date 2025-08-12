@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Deepfake Audio Detection</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Deepfake Audio Detector</h1>
+    {% if message %}
+      <p class="message">{{ message }}</p>
+    {% endif %}
+    <form method="post" enctype="multipart/form-data">
+      <input type="file" name="audio_file" accept=".wav" required>
+      <button type="submit">Upload & Analyze</button>
+    </form>
+  </div>
+</body>
+</html>
